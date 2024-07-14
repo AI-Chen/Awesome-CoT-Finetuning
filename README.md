@@ -53,6 +53,8 @@ A collection of paper and code for the chain of thought finetuning (CoT-Finetuni
 | **Year**   | **Title**                                                                                     |  **Venue**    |                                       **Paper**                                            | **Code** |
 | ---- |----------------------------------------------------------------------------------|:--------:|:---------------------------------------------------------------------------------:|:----:|
 | 2022  | **Large Language Models Can Self-Improve**   |  ACL    |                   [Link](https://aclanthology.org/2023.emnlp-main.67/)                    | -  |
+| 2024  | **Monte Carlo Tree Search Boosts Reasoning via Iterative Preference Learning
+**   |  -    |                   [Link](https://arxiv.org/pdf/2405.00451)                    | [Link](https://github.com/YuxiXie/MCTS-DPO)   |
 
 ## Application <span id="Applicationt-"></span>
 | **Year**   | **Title**                                                                                     |  **Venue**    |                                       **Paper**                                            | **Code** |
