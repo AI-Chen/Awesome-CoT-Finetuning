@@ -24,6 +24,7 @@ A collection of paper and code for the chain of thought finetuning (CoT-Finetuni
 | **Type**                                                                                     |  **Dataset**    |                                       **Description**                                            | **Download** |
 |----------------------------------------------------------------------------------|:--------:|:---------------------------------------------------------------------------------:|:----:|
 | QA-Commonsense   |  CommonsenseQA    |                   [Link](https://arxiv.org/abs/1811.00937)                    | [Link](https://www.tau-nlp.org/commonsenseqa)  |
+| QA-Commonsense   |   StrategyQA   |                   [Link](https://arxiv.org/abs/1811.00937)                    | [Link](https://www.tau-nlp.org/commonsenseqa)  |
 
 ## Chain-of-Thought Distillation <span id="Chain-of-Thought-Distillation-"></span>
 | **Year**   | **Title**                                                                                     |  **Venue**    |                                       **Paper**                                            | **Code** |
