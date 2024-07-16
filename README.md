@@ -18,6 +18,7 @@ A collection of paper and code for the chain of thought finetuning (CoT-Finetuni
 ## Survey Papers <span id="survey-papers-"></span>
 | **Year**   | **Title**                                                                                     |  **Venue**    |                                       **Paper**                                            | **Code** | 
 | ---- |----------------------------------------------------------------------------------|:--------:|:---------------------------------------------------------------------------------:|:----:|
+| 2024  | **A Survey on Knowledge Distillation of Large Language Models**   |  -    |                   [Link](https://arxiv.org/pdf/2402.13116)                    | [Link](https://github.com/Tebmer/Awesome-Knowledge-Distillation-of-LLMs)  | 
 | 2024  | **Navigate through Enigmatic Labyrinth A Survey of Chain of Thought Reasoning: Advances, Frontiers and Future**   |  ACL    |                   [Link](https://arxiv.org/abs/2309.15402)                    | -  | 
 
 ## Datasets <span id="datasets-"></span>
@@ -47,15 +48,28 @@ A collection of paper and code for the chain of thought finetuning (CoT-Finetuni
 ## Chain-of-Thought Distillation <span id="Chain-of-Thought-Distillation-"></span>
 | **Year**   | **Title**                                                                                     |  **Venue**    |                                       **Paper**                                            | **Code** |
 | ---- |----------------------------------------------------------------------------------|:--------:|:---------------------------------------------------------------------------------:|:----:|
+| 2022  | **Large Language Models Are Reasoning Teachers**   |  ACL    |                   [Link](https://arxiv.org/pdf/2212.10071)                    | [Link](https://github.com/itsnamgyu/reasoning-teacher)   |
+| 2023  | **Teaching Small Language Models to Reason**   |  ACL    |                   [Link](https://aclanthology.org/2023.acl-short.151.pdf)                    | -   |
+| 2023  | **Distilling Step-by-Step! Outperforming Larger Language Models with Less Training Data and Smaller Model Sizes**   |  ACL    |                   [Link](https://aclanthology.org/2023.findings-acl.507.pdf)                    | [Link](https://github.com/Yiwei98/TDG)   |
+| 2023  | **SCOTT: Self-Consistent Chain-of-Thought Distillation**   |  ACL    |                   [Link](https://aclanthology.org/2023.acl-long.304v2.pdf)                    | [Link](https://github.com/wangpf3/consistent-CoT-distillation)   |
+| 2023  | **Distilling Reasoning Capabilities into Smaller Language Models**   |  ACL    |                   [Link](https://aclanthology.org/2023.findings-acl.441.pdf)                    | [Link](https://github.com/kumar-shridhar/Distiiling-LM)   |
+| 2023  | **Specializing Smaller Language Models towards Multi-Step Reasoning**   |  PMLR    |                   [Link](https://proceedings.mlr.press/v202/fu23d/fu23d.pdf)                    | [Link](https://github.com/FranxYao/FlanT5-CoT-Specialization)   |
+| 2023  | **IMPLICIT CHAIN OF THOUGHT REASONING VIA KNOWLEDGE DISTILLATION**   |  -    |                   [Link](https://arxiv.org/pdf/2311.01460)                    | [Link](https://github.com/da03/implicit_chain_of_thought)   |
 | 2024  | **Turning Dust into Gold: Distilling Complex Reasoning Capabilities from LLMs by Leveraging Negative Data**   |  AAAI    |                   [Link](https://ojs.aaai.org/index.php/AAAI/article/view/29821)                    | [Link](https://github.com/Yiwei98/TDG)   |
+| 2024  | **Enhancing Code Generation Performance of Smaller Models by Distilling the Reasoning Ability of LLMs**   |  COLING    |                   [Link](https://aclanthology.org/2024.lrec-main.521.pdf)                    | [Link](https://github.com/sssszh/CodePLAN)   |
+| 2024  | **PaD: Program-aided Distillation Can Teach Small Models Reasoning Better than Chain-of-thought Fine-tuning**   |  NAACL    |                   [Link](https://aclanthology.org/2024.naacl-long.142.pdf)                    | [Link](https://github.com/Xuekai-Zhu/pad)   |
+| 2024  | **Mind’s Mirror: Distilling Self-Evaluation Capability and Comprehensive Thinking from Large Language Models**   |  NAACL    |                   [Link](https://aclanthology.org/2024.naacl-long.376.pdf)                    | [Link](https://github.com/Attention-is-All-I-Need/Mind-s-Mirror-Distilling-LLM)   |
+| 2024  | **Mixed Distillation Helps Smaller Language Model Better Reasoning**   | -    |                   [Link](https://arxiv.org/pdf/2312.10730)                    | -   |
+| 2024  | **Distilling Mathematical Reasoning Capabilities into Small Language Models**   | -    |                   [Link](https://arxiv.org/pdf/2401.11864)                    | -   |
 
 ## Self-Enhancement <span id="Self-Enhancement-"></span>
 | **Year**   | **Title**                                                                                     |  **Venue**    |                                       **Paper**                                            | **Code** |
 | ---- |----------------------------------------------------------------------------------|:--------:|:---------------------------------------------------------------------------------:|:----:|
-| 2022  | **Large Language Models Can Self-Improve**   |  ACL    |                   [Link](https://aclanthology.org/2023.emnlp-main.67/)                    | -  |
+| 2022  | **Large Language Models Can Self-Improve**   |  ACL    |                   [Link](https://aclanthology.org/2023.emnlp-main.67/)                    | [Link](https://github.com/google-research/distilling-step-by-step)  |
 | 2024  | **Monte Carlo Tree Search Boosts Reasoning via Iterative Preference Learning**   |  -    |                   [Link](https://arxiv.org/pdf/2405.00451)                    | [Link](https://github.com/YuxiXie/MCTS-DPO)   |
 
 ## Application <span id="Applicationt-"></span>
 | **Year**   | **Title**                                                                                     |  **Venue**    |                                       **Paper**                                            | **Code** |
 | ---- |----------------------------------------------------------------------------------|:--------:|:---------------------------------------------------------------------------------:|:----:|
 | 2024  | **Effective Distillation of Table-based Reasoning Ability from LLMs**   |  ACL    |                   [Link](https://aclanthology.org/2024.lrec-main.492/)                    | [Link]([https://github.com/Yiwei98/TDG](https://github.com/Bernard-Yang/DistillTableCoT))  |
+| 2024  | **Probe then Retrieve and Reason: Distilling Probing and Reasoning Capabilities into Smaller Language Models**   |  COLING    |                   [Link](https://aclanthology.org/2024.lrec-main.1140.pdf)                    | -  |
