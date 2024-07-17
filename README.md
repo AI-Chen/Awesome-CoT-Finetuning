@@ -53,6 +53,7 @@ A collection of paper and code for the chain of thought finetuning (CoT-Finetuni
 | 2023  | **Distilling Step-by-Step! Outperforming Larger Language Models with Less Training Data and Smaller Model Sizes**   |  ACL    |                   [Link](https://aclanthology.org/2023.findings-acl.507.pdf)                    | [Link](https://github.com/Yiwei98/TDG)   |
 | 2023  | **SCOTT: Self-Consistent Chain-of-Thought Distillation**   |  ACL    |                   [Link](https://aclanthology.org/2023.acl-long.304v2.pdf)                    | [Link](https://github.com/wangpf3/consistent-CoT-distillation)   |
 | 2023  | **Distilling Reasoning Capabilities into Smaller Language Models**   |  ACL    |                   [Link](https://aclanthology.org/2023.findings-acl.441.pdf)                    | [Link](https://github.com/kumar-shridhar/Distiiling-LM)   |
+| 2023  | **Orca: Progressive Learning from Complex Explanation Traces of GPT-4**   |  -    |                   [Link](https://arxiv.org/pdf/2306.02707)                    | -   |
 | 2023  | **Specializing Smaller Language Models towards Multi-Step Reasoning**   |  PMLR    |                   [Link](https://proceedings.mlr.press/v202/fu23d/fu23d.pdf)                    | [Link](https://github.com/FranxYao/FlanT5-CoT-Specialization)   |
 | 2023  | **Symbolic Chain-of-Thought Distillation: Small Models Can Also “Think” Step-by-Step**   |  ACL    |                   [Link](https://aclanthology.org/2023.acl-long.150.pdf)                    | -   |
 | 2023  | **IMPLICIT CHAIN OF THOUGHT REASONING VIA KNOWLEDGE DISTILLATION**   |  -    |                   [Link](https://arxiv.org/pdf/2311.01460)                    | [Link](https://github.com/da03/implicit_chain_of_thought)   |
@@ -67,6 +68,7 @@ A collection of paper and code for the chain of thought finetuning (CoT-Finetuni
 | **Year**   | **Title**                                                                                     |  **Venue**    |                                       **Paper**                                            | **Code** |
 | ---- |----------------------------------------------------------------------------------|:--------:|:---------------------------------------------------------------------------------:|:----:|
 | 2022  | **Large Language Models Can Self-Improve**   |  ACL    |                   [Link](https://aclanthology.org/2023.emnlp-main.67/)                    | [Link](https://github.com/google-research/distilling-step-by-step)  |
+| 2023  | **DialCoT Meets PPO: Decomposing and Exploring Reasoning Paths in Smaller Language Models**   |  EMNLP    |                   [Link](https://aclanthology.org/2023.emnlp-main.501.pdf)                    | [Link](https://github.com/hccngu/DialCoT)  |
 | 2024  | **Monte Carlo Tree Search Boosts Reasoning via Iterative Preference Learning**   |  -    |                   [Link](https://arxiv.org/pdf/2405.00451)                    | [Link](https://github.com/YuxiXie/MCTS-DPO)   |
 
 ## Application <span id="Applicationt-"></span>
@@ -74,3 +76,5 @@ A collection of paper and code for the chain of thought finetuning (CoT-Finetuni
 | ---- |----------------------------------------------------------------------------------|:--------:|:---------------------------------------------------------------------------------:|:----:|
 | 2024  | **Effective Distillation of Table-based Reasoning Ability from LLMs**   |  ACL    |                   [Link](https://aclanthology.org/2024.lrec-main.492/)                    | [Link]([https://github.com/Yiwei98/TDG](https://github.com/Bernard-Yang/DistillTableCoT))  |
 | 2024  | **Probe then Retrieve and Reason: Distilling Probing and Reasoning Capabilities into Smaller Language Models**   |  COLING    |                   [Link](https://aclanthology.org/2024.lrec-main.1140.pdf)                    | -  |
+| 2024  | **RL on Incorrect Synthetic Data Scales the Efficiency of LLM Math Reasoning by Eight-Fold**   |  -    |                   [Link](https://arxiv.org/pdf/2406.14532)                    | [Link](https://github.com/ars22/scaling-LLM-math-synthetic-data)  |
+| 2024  | **Step-level Value Preference Optimization for Mathematical Reasoning**   |  -    |                   [Link](https://arxiv.org/pdf/2406.10858)                    | -  |
