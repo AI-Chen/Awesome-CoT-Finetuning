@@ -5,7 +5,7 @@ A collection of paper and code for the chain of thought finetuning (CoT-Finetuni
 - We reproduced the code of all collected papers and tried to compare them under the same training framework. The reproduced code can be viewed in the [code](./code). :fire: :fire: :fire:
 - We will release all datasets we construct in the same way as described in all collected papers in the future.
 
-:bell: :bell: :bell: Update at July 2024
+:bell: :bell: :bell: Update at Dec 2024
 
 
 # Bookmarks
