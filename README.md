@@ -1,9 +1,15 @@
 # Awesome-CoT-Finetuning
 
-A collection of paper and code for the chain of thought finetuning (CoT-Finetuning). We are looking forward to other participants to share their papers and codes. If interested, please contact chenxs@nudt.edu.cn or xschenranker@gmail.com. :fire: :fire: :fire: 
+A collection of papers and datasets for the chain of thought finetuning (CoT-Finetuning) survey. We are looking forward to other participants to share their papers and codes. If interested, please contact chenxs@nudt.edu.cn or xschenranker@gmail.com. :fire: :fire: :fire: 
+
+- Comprehensive Review: We comprehensively investigate typical CoT fine-tuning methods based on a bi-level taxonomy, i.e., top-level (Six Thinking Hats), and base-level (techniques), which offers a novel perspective on CoT fine-tuning and facilitates the understanding of the developmental trajectories among different CoT fine-tuning methods.
+- Insightful Analysis: Based on the Six Thinking framework, we analyze the strengths and limitations of existing CoT fine-tuning methods in enabling LLMs to develop corresponding reasoning abilities, which provides valuable guidance for researchers in selecting an appropriate baseline for their research.
+- Potential Opportunity: Building upon the Six Thinking Hats framework, we identify and summarize the key challenges currently faced by CoT fine-tuning and point out some potential opportunities that will inspire future studies.
+- Open-source Resource: We will keep this GitHub repository continuously updated for researchers to track the latest developments.
 
 :bell: :bell: :bell: Update at Oct 2025
 
+![Example](./evolution.png)
 
 # Bookmarks
 - [Survey Papers](#survey-papers-)
@@ -41,7 +47,7 @@ A collection of paper and code for the chain of thought finetuning (CoT-Finetuni
 |  Natural Language Inference   |  ANLI-R1    |                   [Link](https://aclanthology.org/2020.acl-main.441.pdf)                    | [Link](https://github.com/facebookresearch/anli)  |18,946 | 3 | No | 
 | Generic ability   |  Big Bench Hard    |                   [Link](https://arxiv.org/pdf/2206.04615)                    | [Link](https://github.com/google/BIG-bench/tree/main/bigbench/benchmark_tasks)  |24 tasks | \ | No|
 
-## Being a Thinking Model <span id="Thinking"></span>
+## Being a Thinking Model <span id="Thinking-"></span>
 ### Supervised Fine-tuning (SFT)
 #### Training Methods
 | **Year**   | **Title**                                                                                     |  **Venue**    |                                       **Paper**                                            | **Code** |
@@ -81,3 +87,5 @@ A collection of paper and code for the chain of thought finetuning (CoT-Finetuni
 #### White (Fact perception)
 
 ## Performance <span id="Performance"></span>
+
+![Example](./performance.png)
