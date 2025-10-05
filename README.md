@@ -20,7 +20,7 @@ A collection of papers and datasets for the chain of thought finetuning (CoT-Fin
 ## Survey Papers <span id="survey-papers-"></span>
 | **Year** | **Title** | **Venue** | **Paper** |
 |------|-------|-------|-------|
-| 2023 | Towards reasoning in large language models: A survey | ACL | [2212.10403] Towards Reasoning in Large Language Models: A Survey (arxiv.org) |
+| 2023 | Towards reasoning in large language models: A survey | ACL | [[2212.10403] Towards Reasoning in Large Language Models: A Survey (arxiv.org)](https://arxiv.org/abs/2212.10403 ) |
 | 2025 | Beyond chain-of-thought: A survey of chain-of-X paradigms for LLMs | ICCL | https://aclanthology.org/2025.coling-main.719/ |
 | 2024 | Navigate through enigmatic labyrinth a survey of chain of thought reasoning: Advances, frontiers and future | ACL | https://aclanthology.org/2024.acl-long.65/ |
 | 2025 | Reasoning language models: A blueprint | Arxiv | [2501.11223] Reasoning Language Models: A Blueprint (arxiv.org) |
