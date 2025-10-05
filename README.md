@@ -25,27 +25,38 @@ A collection of papers and datasets for the chain of thought finetuning (CoT-Fin
 | 2024  | **Automatically Correcting Large Language Models: Surveying the Landscape of Diverse Automated Correction Strategies*   |  TACL    |                   [Link](https://direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00660/120911)                    | -  | 
 
 ## Datasets <span id="datasets-"></span>
-| **Type**                                                                                     |  **Dataset**    |                                       **Description**                                            | **Download** |**Samples**|**Choices**|**Manual Rationale**|
-|----------------------------------------------------------------------------------|:--------:|:---------------------------------------------------------------------------------:|:----:|:----:|:----:|:----:|
-| Commonsense   |  CommonsenseQA    |                   [Link](https://arxiv.org/abs/1811.00937)                    | [Link](https://www.tau-nlp.org/commonsenseqa)  | 12,102 | 5 | No |
-| Commonsense   |   StrategyQA   |                   [Link](https://direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00370/100680/Did-Aristotle-Use-a-Laptop-A-Question-Answering)                    | [Link](https://allenai.org/data/strategyqa)  | 2780 | 2 | Yes |
-| Commonsense   |   OpenBookQA   |                   [Link](https://aclanthology.org/D18-1260.pdf)                    | [Link](https://leaderboard.allenai.org/open_book_qa/submissions/get-started)  | 5,957 | 4 | No |
-| Arithmetic   |   SingleEq   |                   [Link](https://aclanthology.org/Q15-1042.pdf)                    | [Link](https://gitlab.cs.washington.edu/ALGES/TACL2015)  | 508| - | Yes |
-| Arithmetic   |   AddSub   |                   [Link](https://aclanthology.org/D14-1058.pdf)                    | [Link](https://www.cs.washington.edu/nlp/arithmetic)  |395 | - | Yes |
-| Arithmetic   |   MultiArith   |                   [Link](https://aclanthology.org/D15-1202.pdf)                    | [Link](https://github.com/wangxr14/Algebraic-Word-Problem-Solver/tree/master/data)  | 600|- | Yes |
-| Arithmetic   |   GSM8K   |                   [Link](https://arxiv.org/pdf/2110.14168)                    | [Link](https://github.com/openai/grade-school-math/tree/master/grade_school_math/data)  | 8000| - | Yes |
-| Arithmetic   |   SVAMP   |                   [Link](https://aclanthology.org/2021.naacl-main.168.pdf)                    | [Link](https://github.com/arkilpatel/SVAMP)  |1000 | - | Yes|
-| Arithmetic   |   AQUA   |                   [Link](https://aclanthology.org/P17-1015.pdf)                    | [Link](https://github.com/google-deepmind/AQuA)  |100,000 | 5 | Yes |
-| Arithmetic   |   ASDiv   |                   [Link](https://aclanthology.org/2020.acl-main.92.pdf)                    | [Link](https://github.com/chaochun/nlu-asdiv-dataset/blob/master/dataset/ASDiv.xml)  | 2305| -| Yes|
-| Arithmetic   |   MATH   |                   [Link](https://arxiv.org/pdf/2103.03874)                    | [Link](https://github.com/hendrycks/math)  |12,500 | - | Yes|
-| Symbolic   |  Last Letter Concatenation    |                   [Link](https://arxiv.org/pdf/2201.11903)                    | [Link](https://github.com/kojima-takeshi188/zero_shot_cot/tree/main/dataset/last_letters)  |500 | - | No |
-| Symbolic   |  Coin Flip    |                   [Link](https://arxiv.org/pdf/2201.11903)                    | [Link](https://github.com/kojima-takeshi188/zero_shot_cot/tree/main/dataset/coin_flip)  |500 | 2 | No |
-| Science   |  SciQ    |                   [Link](https://aclanthology.org/W17-4413.pdf)                    | [Link](https://allenai.org/data/sciq)  |13,679  | 4 | No|
-| Science   |   ARC-Easy  |                   [Link](https://arxiv.org/pdf/1803.05457)                    | [Link](https://allenai.org/data/arc)  | 5197 | 4 | No |
-| Science   |   ARC-Challenge   |                   [Link](https://arxiv.org/pdf/1803.05457)                    | [Link](https://allenai.org/data/arc)  | 2590 | 4 | Yes |
-|  Natural Language Inference   |  e-SNLI    |                   [Link](https://papers.nips.cc/paper_files/paper/2018/file/4c7a167bb329bd92580a99ce422d6fa6-Paper.pdf)                    | [Link](https://github.com/OanaMariaCamburu/e-SNLI/tree/master/dataset)  |569,033 | 3 | Yes |
-|  Natural Language Inference   |  ANLI-R1    |                   [Link](https://aclanthology.org/2020.acl-main.441.pdf)                    | [Link](https://github.com/facebookresearch/anli)  |18,946 | 3 | No | 
-| Generic ability   |  Big Bench Hard    |                   [Link](https://arxiv.org/pdf/2206.04615)                    | [Link](https://github.com/google/BIG-bench/tree/main/bigbench/benchmark_tasks)  |24 tasks | \ | No|
+| **Category**   | **Dataset**     | **Train**| **Valid**|**Test**|**Task Description**                          | **Rationale (ie. CoT)** | **Dataset Download** |
+|-----------------|-----------------|--------|-------|--------|-------------------------------------------------------|---------------------|------------------|
+| General Task    | BBH [250]       | 0      | 0     | 6511   | 23 common reasoning tasks                             | No                  | [BBH](https://github.com/suzgunmirac/BIG-Bench-Hard) |
+|                 | SuperGPQA [251] | 0      | 0     | 26,529 | Graduate-level Q&A tasks across 285 disciplines       | No                  | [SuperGPQA](https://supergpqa.github.io/) |
+|                 | MMLU [252]      | 0      | 1,540 | 14,368 | Multiple-choice Q&A across 57 tasks                   | No                  | [MMLU](https://github.com/hendrycks/test) |
+|                 | MMLUPro [253]   | 0      | 70    | 12,032 | Q&A tasks across 285 disciplines                      | Partial             | [MMLUPro](https://huggingface.co/spaces/TIGER-Lab/MMLU-Pro) |
+| Mathematics     | GSM8K [25]      | 7,500  | 0     | 1,000  | Grade school math                                     | Yes                 | [GSM8K](https://github.com/openai/grade-school-math) |
+|                 | MGSM [254]      | 88     | 0     | 2,750  | Multilingual version of GSM8K                         | Yes                 | [MGSM](https://github.com/google-research/url-nlp) |
+|                 | AQuA [255]      | 100,949| 250   | 250    | Algebraic word problems                               | Yes                 | [AQuA](https://github.com/deepmind/AQuA) |
+|                 | MATH [162]      | 7,500  | 0     | 5,000  | Competitive math                                      | Yes                 | [MATH](https://github.com/hendrycks/apps) |
+|                 | AIME [256]      | 0      | 0     | Updated annually | American invitational mathematics examination | Yes                 | [AIME](https://artofproblemsolving.com/wiki/index.php/AIME_Problems_and_Solutions) |
+|                 | Geometry3K [257]| 2,101  | 300   | 601    | Geometry Problem with symbolic reasoning              | No                  | [Geometry3K](https://lupantech.github.io/inter-gps) |
+| Coding          | CodeContests [258]|13,328 | 117   | 165    | Competitive programming                               | No                  | [CodeContests](https://www.science.org/doi/10.1126/science.abq1158) |
+|                 | LiveCodeBench [259]| 0    | 0     | Continuous updates | Periodically updated programming               | No                  | [LiveCodeBench](https://livecodebench.github.io/) |
+|                 | MHPP [260]      | 0      | 0     | 210    | Manually created Python programming                   | No                  | [MHPP](https://github.com/SparksofAGI/MHPP) |
+|                 | EquiBench [261] | 0      | 0     | 2,400  | Equivalence checking for two programs                 | No                  | [EquiBench](https://github.com/Anjiang-Wei/equibench) |
+|                 | MBPP Pro [262]  | 0      | 0     | 378    | Self-invoking code generation                         | No                  | [MBPP Pro](https://github.com/CodeEval-Pro/CodeEval-Pro) |
+|                 | SWEbench [263]  | 19,000 | 0     | 2,294  | Solving real-world GitHub issues                      | No                  | [SWEbench](https://www.swebench.com/) |
+|                 | BFCL v3 [24]    | 0      | 0     | 2,000  | Function-calling tasks                                | No                  | [BFCL v3](https://gorilla.cs.berkeley.edu/blogs/8_berkeley_function_calling_leaderboard.html#benchmarking) |
+| Commonsense     | HotpotQA [265]  | 90,564 | 7,405 | 14,810 | Reading comprehension                                 | No                  | [HotpotQA](https://HotpotQA.github.io) |
+|                 | CommonsenseQA [266]|9,797 | 1,225 | 1,225  | Multiple-choice Q&A                                   | No                  | [CommonsenseQA](https://www.tau-nlp.org/commonsenseqa) |
+|                 | StrategyQA [16] | 2,290  | 0     | 490    | True or false Q&A                                     | Yes                 | [StrategyQA](https://allenai.org/data/strategyqa) |
+|                 | OpenBookQA [267]|13,328  | 117   | 165    | Multiple-choice Q&A                                   | No                  | [OpenBookQA](http://data.allenai.org/OpenBookQA) |
+| Domain Knowledge| MedQA [268]     | 48,876 | 6,109 | 6,112  | Multilingual multiple-choice medical Q&A              | No                  | [MedQA](https://github.com/jind11/MedQA) |
+|                 | JAMA [180]      | 0      | 0     | 1,524  | Multiple-choice clinical Q&A                          | Yes                 | [JAMA](https://github.com/HanjieChen/ChallengeClinicalQA) |
+|                 | MedXpertQA [181] | 0      | 0     | 4,460  | Multimodal multiple-choice medical Q&A                | Yes                 | [MedXpertQA](https://github.com/TsinghuaC3I/MedXpertQA) |
+|                 | GPQA [182]      | 0      | 0     | 448    | Biology, physics, and chemistry multiple-choice Q&A   | Yes                 | [GPQA](https://github.com/idavidrein/gpqa/) |
+|                 | Zebralogic [269]| 0      | 0     | 1,000  | Logic grid puzzles                                    | No                  | [ZebraLogic](https://hf.co/spaces/allenai/ZebraLogic) |
+| Others          | ToolBench [164] | 0      | 0     | 1,524  | General tool-use tasks                                | Yes                 | [ToolBench](https://github.com/OpenBMB/ToolBench) |
+|                 | ALFWorld [270]  | 3,553  | 0     | 274    | 6 types of decision making tasks                      | No                  | [ALFWorld](https://alfworld.github.io/) |
+|                 | ChartQA-H [27]  | 7,398  | 960   | 1,250  | Charts with visual and logical reasoning              | No                  | [ChartQA-H](https://github.com/vis-nlp/ChartQA) |
+|                 | ChartQA-M [27]  | 20,901 | 960   | 1,250  | Charts with visual and logical reasoning              | No                  | [ChartQA-M](https://github.com/vis-nlp/ChartQA) |
 
 ## Being a Thinking Model <span id="Thinking-"></span>
 ### Supervised Fine-tuning (SFT)
