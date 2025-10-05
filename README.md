@@ -18,11 +18,17 @@ A collection of papers and datasets for the chain of thought finetuning (CoT-Fin
 - [Being an Insight Model](#Insight-)
 
 ## Survey Papers <span id="survey-papers-"></span>
-| **Year**   | **Title**                                                                                     |  **Venue**    |                                       **Paper**                                            | **Code** | 
-| ---- |----------------------------------------------------------------------------------|:--------:|:---------------------------------------------------------------------------------:|:----:|
-| 2024  | **A Survey on Knowledge Distillation of Large Language Models**   |  -    |                   [Link](https://arxiv.org/pdf/2402.13116)                    | [Link](https://github.com/Tebmer/Awesome-Knowledge-Distillation-of-LLMs)  | 
-| 2024  | **Navigate through Enigmatic Labyrinth A Survey of Chain of Thought Reasoning: Advances, Frontiers and Future**   |  ACL    |                   [Link](https://arxiv.org/abs/2309.15402)                    | -  | 
-| 2024  | **Automatically Correcting Large Language Models: Surveying the Landscape of Diverse Automated Correction Strategies*   |  TACL    |                   [Link](https://direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00660/120911)                    | -  | 
+| **Year** | **Title** | **Venue** | **Paper** |
+|------|-------|-------|-------|
+| 2023 | Towards reasoning in large language models: A survey | ACL | [2212.10403] Towards Reasoning in Large Language Models: A Survey (arxiv.org) |
+| 2025 | Beyond chain-of-thought: A survey of chain-of-X paradigms for LLMs | ICCL | https://aclanthology.org/2025.coling-main.719/ |
+| 2024 | Navigate through enigmatic labyrinth a survey of chain of thought reasoning: Advances, frontiers and future | ACL | https://aclanthology.org/2024.acl-long.65/ |
+| 2025 | Reasoning language models: A blueprint | Arxiv | [2501.11223] Reasoning Language Models: A Blueprint (arxiv.org) |
+| 2025 | Towards large reasoning models: A survey of reinforced reasoning with large language models | Arxiv | [2501.09686] Towards Large Reasoning Models: A Survey of Reinforced Reasoning with Large Language Models (arxiv.org) |
+| 2025 | Towards reasoning era: A survey of long chain-of-thought for reasoning large language models | Arxiv | [2503.09567] Towards Reasoning Era: A Survey of Long Chain-of-Thought for Reasoning Large Language Models (arxiv.org) |
+| 2025 | From system 1 to system 2: A survey of reasoning large language models | Arxiv | [2502.17419] From System 1 to System 2: A Survey of Reasoning Large Language Models (arxiv.org) |
+| 2025 | LLM posttraining: A deep dive into reasoning large language models | Arxiv | [2502.21321] LLM Post-Training: A Deep Dive into Reasoning Large Language Models (arxiv.org) |
+| 2025 | Stop overthinking: A survey on efficient reasoning for large language models | Arxiv | [2503.16419] Stop Overthinking: A Survey on Efficient Reasoning for Large Language Models (arxiv.org) |                | -  | 
 
 ## Datasets <span id="datasets-"></span>
 | **Category**   | **Dataset**     | **Train**| **Valid**|**Test**|**Task Description**                          | **Rationale (ie. CoT)** | **Dataset Download** |
