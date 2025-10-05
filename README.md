@@ -19,7 +19,7 @@ A collection of papers and datasets for the chain of thought finetuning (CoT-Fin
 
 ## Survey Papers <span id="survey-papers-"></span>
 | **Year** | **Title** | **Venue** |
-|------|-------|-------|-------|
+|------|-------|-------|
 | 2023 | [Towards Reasoning in Large Language Models: A Survey](https://arxiv.org/abs/2212.10403 ) | ACL | 
 | 2025 | [Beyond chain-of-thought: A survey of chain-of-X paradigms for LLMs](https://aclanthology.org/2025.coling-main.719/) | ICCL | 
 | 2024 | [Navigate through enigmatic labyrinth a survey of chain of thought reasoning: Advances, frontiers and future](https://aclanthology.org/2024.acl-long.65/) | ACL | 
