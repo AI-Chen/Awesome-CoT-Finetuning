@@ -74,7 +74,6 @@ A collection of papers and datasets for the chain of thought finetuning (CoT-Fin
 | 2023  | **Teaching Small Language Models to Reason**   |  ACL    |                   [Link](https://aclanthology.org/2023.acl-short.151.pdf)                    | -   |
 | 2023  | **Large Language Models Are Reasoning Teachers**   |  ACL    |                   [Link](https://aclanthology.org/2023.acl-long.830.pdf)                    | [link](https://github.com/itsnamgyu/reasoning-teacher)   |
 | 2023  | **SCOTT: Self-Consistent Chain-of-Thought Distillation**   |  ACL    |                   [Link](https://aclanthology.org/2023.acl-long.304v2.pdf)                    | -   |
-| 2023  | **ALERT: Adapt Language Models to Reasoning Tasks**   |  ACL    |                   [Link](https://aclanthology.org/2023.acl-long.60.pdf)                    | -   |
 | 2023  | **Distilling Step-by-Step! Outperforming Larger Language Models with Less Training Data and Smaller Model Sizes**   |  ACL    |                   [Link](https://aclanthology.org/2023.findings-acl.507.pdf)                    | [link](https://github.com/google-research/distilling-step-by-step)   |
 | 2023  | **Specializing smaller language models towards multi-step reasoning**   |  ICML    |                   [Link](https://proceedings.mlr.press/v202/fu23d/fu23d.pdf)                    | [link](https://github.com/FranxYao/FlanT5-CoT-Specialization)   |
 | 2023  | **Faithful Chain-of-Thought Reasoning**   |  IJCNLP    |                   [Link](https://aclanthology.org/2023.ijcnlp-main.20.pdf)                    | [link](https://github.com/veronica320/Faithful-COT)   |
@@ -88,11 +87,7 @@ A collection of papers and datasets for the chain of thought finetuning (CoT-Fin
 | 2024  | **Making Reasoning Matter: Measuring and Improving Faithfulness of Chain-of-Thought Reasoning**   |  ENMLP    |                   [Link](https://aclanthology.org/2024.findings-emnlp.882.pdf)                    | [link](https://debjitpaul.github.io/reasoningmatter/)   |
 | 2025  | **Gemini 2.5: Pushing the frontier with advanced reasoning, multimodality, long context, and next generation agentic capabilities**   |  Arxiv    |                   [Link](https://arxiv.org/pdf/2507.06261)                    | -   |
 | 2025  | **Deepseek-r1: Incentivizing reasoning capability in llms via reinforcement learning**   |  Arxiv    |                   [Link](https://arxiv.org/pdf/2501.12948?)                    | -   |
-| 2024  | **Abstraction-of-Thought Makes Language Models Better Reasoners**   |  EMNLP    |                   [Link](https://arxiv.org/pdf/2406.12442)                    | [Link](https://github.com/Raising-hrx/Abstraction-of-Thought)   |
-| 2023  | **IMPLICIT CHAIN OF THOUGHT REASONING VIA KNOWLEDGE DISTILLATION**   |  -    |                   [Link](https://arxiv.org/pdf/2311.01460)                    | [Link](https://github.com/da03/implicit_chain_of_thought/)   |
-| 2024  | **From Explicit CoT to Implicit CoT: Learning to Internalize CoT Step by Step**   |  -    |                   [Link](https://arxiv.org/pdf/2405.14838)                    | [Link](https://github.com/da03/Internalize_CoT_Step_by_Step)   |
-| 2024  | **Training Large Language Models to Reason in a Continuous Latent Space**   |  -    |                   [Link](https://arxiv.org/pdf/2412.06769)                    | -  |
-| 2024  | **Guiding Language Model Reasoning with Planning Tokens**   |  COLM    |                   [Link](https://arxiv.org/pdf/2310.05707)                    | [link](https://github.com/WANGXinyiLinda/planning_tokens)  |
+
 
 #### Acquiring CoT 
 | **Year**   | **Title**                                                                                     |  **Venue**    |                                       **Paper**                                            | **Code** |
