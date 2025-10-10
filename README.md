@@ -15,7 +15,15 @@ A collection of papers and datasets for the chain of thought finetuning (CoT-Fin
 - [Survey Papers](#survey-papers-)
 - [Datasets](#datasets-)
 - [Being a Thinking Model](#Thinking-)
+    - [Supervised Fine-tuning](#SFT-)
+    - [Reinforced Fine-tuning](#RFT-)
 - [Being an Insight Model](#Insight-)
+    - [Blue Hat](#Blue-)
+    - [Green Hat](#Green-)
+    - [Red Hat](#Red-)
+    - [Black Hat](#Black-)
+    - [Yellow Hat](#Yellow-)
+    - [White Hat](#White-)
 
 ## Survey Papers <span id="survey-papers-"></span>
 | **Year** | **Title** | **Venue** |
@@ -65,7 +73,7 @@ A collection of papers and datasets for the chain of thought finetuning (CoT-Fin
 |                | ChartQA-M     | 20,901    | 960       | 1,250    | Charts with visual and logical reasoning             | No                      | [ChartQA-M](https://github.com/vis-nlp/ChartQA) | [ChartQA-M](https://aclanthology.org/2022.findings-acl.177/) |
 
 ## Being a Thinking Model <span id="Thinking-"></span>
-### Supervised Fine-tuning (SFT)
+### Supervised Fine-tuning (SFT) <span id="SFT-"></span>
 #### Training Methods
 | **Year**   | **Title**                                                                                     |  **Venue**    |                                       **Paper**                                            | **Code** |
 | ---- |----------------------------------------------------------------------------------|:--------:|:---------------------------------------------------------------------------------:|:----:|
@@ -126,7 +134,7 @@ A collection of papers and datasets for the chain of thought finetuning (CoT-Fin
 | 2025  | **Deepmath-103k: A large-scale, challenging, decontaminated, and verifiable mathematical dataset for advancing reasoning**   |  Arxiv    |                   [Link](https://arxiv.org/pdf/2504.11456?)                    | [link](https://github.com/zwhe99/DeepMath)   |
 | 2025  | **MedReason: Eliciting Factual Medical Reasoning Steps in LLMs via Knowledge Graphs**   |  Arxiv    |                   [Link](https://arxiv.org/pdf/2504.00993)                    | [link](https://github.com/UCSC-VLAA/MedReason)   |
 
-### Reinforced Fine-tuning (RFT)
+### Reinforced Fine-tuning (RFT) <span id="RFT-"></span>
 #### Training Methods
 | **Year**   | **Title**                                                                                     |  **Venue**    |                                       **Paper**                                            | **Code** |
 | ---- |----------------------------------------------------------------------------------|:--------:|:---------------------------------------------------------------------------------:|:----:|
@@ -210,21 +218,154 @@ A collection of papers and datasets for the chain of thought finetuning (CoT-Fin
 
 
 ## Being an Insight Model <span id="Insight-"></span>
-#### Blue Hat (Planning)
+### Blue Hat (Planning) <span id="Blue-"></span>
 | **Year**   | **Title**                                                                                     |  **Venue**    |                                       **Paper**                                            | **Code** |
 | ---- |----------------------------------------------------------------------------------|:--------:|:---------------------------------------------------------------------------------:|:----:|
-| 2022  | **STaR: Self-Taught Reasoner Bootstrapping Reasoning With Reasoning**   |  NeurIPS    |                   [Link](https://proceedings.neurips.cc/paper_files/paper/2022/file/639a9a172c044fbb64175b5fad42e9a5-Paper-Conference.pdf)                    | [Link](https://github.com/ezelikman/STaR)  |
+| 2002  | **Artificial Intelligence: A Modern Approach**   |   Pearson   |                   -                    | -  |
+| 2012  | **Intelligent Planning: A Decomposition and Abstraction Based Approach**   | Springer     |                   -                    | -  |
+| 2023  | **On grounded planning for embodied tasks with language models**   |  AAAI  |                   [Link](https://ojs.aaai.org/index.php/AAAI/article/view/26549)                    | [Link](https://inklab.usc.edu/G-PlanET)  |
+| 2023  | **Learning to reason over scene graphs: a case study of fine-tuning GPT-2 into a robot language model for grounded task planning**   |   Robotics & AI   |                   [Link](https://www.frontiersin.org/articles/10.3389/frobt.2023.1221739)                    | [Link](https://github.com/dnandha/RobLM)  |
+| 2023  | **Data-efficient learning of natural language to linear temporal logic translators for robot task specification**   |  	ICRA   |                   [Link](https://arxiv.org/pdf/2303.08006)                    | [Link](https://github.com/UM-ARM-Lab/Efficient-Eng-2-LTL)  |
+| 2023  | **Plan-and-solve prompting: Improving zero-shot chain-of-thought reasoning by large language models**   |   ACL    |                   [Link](https://aclanthology.org/2023.acl-long.147)                    | [Link](https://github.com/AGI-Edgerunners/Plan-and-Solve-Prompting)  |
+| 2024  | **CodePlan: Unlocking reasoning potential in large language models by scaling code-form planning**   |  ICLR   |                   [Link](    https://openreview.net/pdf?id=dCPF1wlqj8)                    | -  |
+| 2024  | **CPL: Critical plan step learning boosts LLM generalization in reasoning tasks**   |   arXiv   |                   [Link](https://arxiv.org/abs/2409.08642)                    | -  |
+| 2024  | **Agent LUMOS: Unified and modular training for open-source language agents**   |    ACL  |                   [Link](https://aclanthology.org/2024.acl-long.670)                    | [Link](https://github.com/allenai/lumos)  |
+| 2024  | **You only look at screens: Multimodal chain-of-action agents**   |   ACL   |                   [Link](https://aclanthology.org/2024.findings-acl.186)                    | [Link](https://github.com/cooelf/Auto-GUI)  |
+| 2024  | **Learning planning-based reasoning by trajectories collection and process reward synthesizing**   |    EMNLP   |                   [Link](    https://aclanthology.org/2024.emnlp-main.20)                    | [Link](https://github.com/SparkJiao/dpo-trajectory-reasoning)  |
+| 2024  | **AUTOACT: Automatic agent learning from scratch via self-planning**   |   arXiv    |                   [Link](    https://arxiv.org/abs/2401.05268)                    | [Link](https://github.com/zjunlp/AutoAct)  |
+| 2024  | **React meets actre: When language agents enjoy training data autonomy**   |   arXiv    |                   [Link](https://arxiv.org/abs/2403.14589)                    | -  |
+| 2024  | **Amor: A recipe for building adaptable modular knowledge agents through process feedback**   |   arXiv    |                   [Link](https://arxiv.org/abs/2402.01469)                    | [Link](https://github.com/JianGuanTHU/AMOR_Agent)  |
+| 2024  | **Learning to plan for language modeling from unlabeled data**   |   arXiv    |                   [Link](https://arxiv.org/abs/2404.00614)                    | [Link](https://github.com/Natithan/learning-to-plan-for-language-modeling-from-unlabeled-data)  |
+| 2024  | **Cooperative strategic planning enhances reasoning capabilities in large language models**   |  arXiv   |                   [Link](https://arxiv.org/abs/2410.20007)                    | -  |
+| 2024  | **LLMs in the Imaginarium: Tool learning through simulated trial and error**   |  ACL     |                   [Link](https://aclanthology.org/2024.acl-long.570)                    | [Link](https://github.com/microsoft/simulated-trial-and-error)  |
+| 2025  | **Thinking with generated images**   |   arXiv    |                   [Link](    https://arxiv.org/abs/2505.22525)                    | [Link](https://github.com/GAIR-NLP/thinking-with-generated-images)  |
+| 2025  | **KnowAgent: Knowledge-augmented planning for LLM-based agents**   |   NAACL   |                   [Link](https://aclanthology.org/2025.findings-naacl.205)                    | [Link](https://zjunlp.github.io/project/KnowAgent/)  |
+| 2025  | **AgentGen: Enhancing planning abilities for large language model based agent via environment and task generation**   |   KDD   |                   [Link](https://dl.acm.org/doi/pdf/10.1145/3690624.3709321)                    | [Link](https://agent-gen.github.io/)  |
 
-#### Green (Diverse thinking)
+### Green Hat (Diverse thinking) <span id="Green-"></span>
+| **Year**   | **Title**                                                                                     |  **Venue**    |                                       **Paper**                                            | **Code** |
+| ---- |----------------------------------------------------------------------------------|:--------:|:---------------------------------------------------------------------------------:|:----:|
+| 1991  | **Adaptive mixtures of local experts**	   |  Neural Computation     |                   -                    | -  |
+| 2017  | **Beam search strategies for neural machine translation**   |  ACL Worshop     |                   [Link](https://aclanthology.org/W17-3207/)                    | -  |
+| 2022  | **Evade the trap of mediocrity: Promoting diversity and novelty in text generation via concentrating attention**   |  EMNLP     |                   [Link](https://aclanthology.org/2022.emnlp-main.745)                    | [Link](https://github.com/peterliwenhao/CARE)  |
+| 2023  | **Making language models better reasoners with step-aware verifier**   |  ACL     |                   [Link](https://aclanthology.org/2025.acl-long.1213.pdf)                    | [Link](https://github.com/microsoft/DiVeRSe)  |
+| 2023  | **Large language models are reasoning teachers**   |  ACL     |                   [Link](https://aclanthology.org/2023.acl-long.830/)                    | [Link](https://github.com/itsnamgyu/reasoning-teacher)  |
+| 2023  | **DRDT: Dynamic reflection with divergent thinking for LLM-based sequential recommendation**   |  arXiv     |                   [Link](https://arxiv.org/abs/2312.11336)                    | -  |
+| 2024  | **Mixture-of-experts meets instruction tuning: A winning combination for large language models**   |  ICLR     |                   [Link](https://openreview.net/forum?id=6mLjDwYte5)                    | -  |
+| 2024  | **Advancing LLM reasoning generalists with preference trees**   |  ICML Workshop    |                   [Link](https://openreview.net/forum?id=2Y1iiCqM5y)                    | [Link]()  |
+| 2024  | **Reasoning paths optimization: Learning to reason and explore from diverse paths**   |  EMNLP Findings     |                   [Link](https://aclanthology.org/2024.findings-emnlp.977/)                    | [Link](https://reasoning-paths.github.io/)  |
+| 2024  | **Math-shepherd: Verify and reinforce LLMs step-by-step without human annotations**   |  ACL     |                   [Link](https://aclanthology.org/2024.findings-naacl.55/)                    | - |
+| 2024  | **OVM: Outcome-supervised value models for planning in mathematical reasoning**   |  NAACL Findings    |                   [Link](https://aclanthology.org/2023.acl-long.291/)                    | [Link](https://github.com/FreedomIntelligence/OVM)  |
+| 2024  | **Let’s verify step by step**   |  ICLR     |                   [Link](https://openreview.net/forum?id=v8L0pN6EOi)                    | -  |
+| 2024  | **Divergent creativity in humans and large language models**   |  arXiv     |                   [Link](https://arxiv.org/abs/2405.13012)                    | [Link](https://github.com/AntoineBellemare/DAT_GPT)  |
+| 2024  | **Encouraging divergent thinking in large language models through multi-agent debate**   |  EMNLP     |                   [Link](https://aclanthology.org/2024.emnlp-main.992/)                    | [Link](https://github.com/Skytliang/Multi-Agents-Debate)  |
+| 2024  | **LLMRG: improving recommendations through large language model reasoning graphs**   |  AAAI      |                   [Link](https://ojs.aaai.org/index.php/AAAI/article/view/29887)                    | -  |
+| 2024  | **MoELoRA: Contrastive learning guided mixture of experts on parameter-efficient fine-tuning for large language models**   |  arXiv    |                   [Link](https://arxiv.org/pdf/2402.12851)                    | -  |
+| 2024  | **MiLoRA: Efficient mixture of low-rank adaptation for large language models fine-tuning**   |  EMNLP Findings     |                   [Link](https://aclanthology.org/2024.findings-emnlp.994/)                    | -  |
+| 2024  | **Let the expert stick to his last: Expert-specialized fine-tuning for sparse architectural large language models**   |  EMNLP    |                   [Link](https://aclanthology.org/2024.emnlp-main.46/)                    | [Link](https://github.com/deepseek-ai/ESFT)  |
+| 2025  | **Learning to reason via mixture-of-thought for logical reasoning**   |  arXiv     |                   [Link](https://arxiv.org/abs/2505.15817)                    | [Link](https://github.com/zhengkid/Truth_Table_Logical_Reasoning)  |
+| 2025  | **Chain-of-reasoning: Towards unified mathematical reasoning in large language models via a multi-paradigm perspective**   |  ACL     |                   [Link](https://aclanthology.org/2025.acl-long.1213/)                    | [Link](https://github.com/microsoft/CoR)  |
+| 2025  | **Fine-tuning on diverse reasoning chains drives within-inference CoT refinement in LLMs**   |  ACL     |                   [Link](https://aclanthology.org/2025.acl-long.191/)                    | [Link](https://github.com/UKPLab/acl2025-diverse-cot)  |
+| 2025  | **Pass@k training for adaptively balancing exploration and exploitation of large reasoning models**   |  arXiv      |                   [Link](https://arxiv.org/abs/2508.10751)                    | [Link](https://github.com/RUCAIBox/Passk_Training)  |
+| 2025  | **Pass@k policy optimization: Solving harder reinforcement learning problems**   |  arXiv      |                   [Link](https://arxiv.org/abs/2505.15201)                    | -  |
+| 2025  | **AdaReasoner: Adaptive reasoning enables more flexible thinking in large language models**   |  arXiv      |                   [Link](https://arxiv.org/abs/2505.17312)                    | [Link](https://github.com/MINE-Lab-ND/AdaReasoner)  |
+| 2025  | **Learning to reason across parallel samples for llm reasoning**   |  arXiv      |                   [Link](https://arxiv.org/abs/2506.09014)                    | [Link](https://user074.github.io/ssa-parallel-reasoning/)  |
+| 2025 | **Breaking thought patterns: A multi-dimensional reasoning framework for llms**   |  arXiv      |                   [Link](https://arxiv.org/abs/2506.13192)                    | -  |
 
-#### Red (Intuitive thinking)
+### Red Hat (Intuitive thinking) <span id="Red-"></span>
+| **Year**   | **Title**                                                                                     |  **Venue**    |                                       **Paper**                                            | **Code** |
+| ---- |----------------------------------------------------------------------------------|:--------:|:---------------------------------------------------------------------------------:|:----:|
+| 2022  | **AutoRule: Reasoning chain-of-thought extracted rule-based rewards improve preference learning**	   |  arXiv     |                   [Link](https://arxiv.org/abs/2506.15651)                    |  [Link](https://github.com/cxcscmu/AutoRule)  |
+| 2024  | **Disentangling length from quality in direct preference optimization**	   |  ACL    |                   [Link](https://aclanthology.org/2024.findings-acl.297/)                    |  -  |
+| 2024  | **Constitutional AI: Harmlessness from AI feedback**	   |  arXiv     |                   [Link](https://arxiv.org/abs/2212.08073)                    |  [Link](https://github.com/anthropics/ConstitutionalHarmlessnessPaper)  |
+| 2024  | **Rule based rewards for language model safety**	   |  NeurIPS     |                   [Link](https://openreview.net/forum?id=QVtwpT5Dmg)                    |  [Link](https://github.com/openai/safety-rbr-code-and-data)  |
+| 2025  | **L1: Controlling how long a reasoning model thinks with reinforcement learning**	   |  COLM     |                   [Link](https://openreview.net/forum?id=4jdIxXBNve#discussion)                    |  [Link](https://cmu-l3.github.io/l1)  |
+| 2025  | **Token-budget-aware LLM reasoning**	   |  ACL Finding    |                   [Link](https://aclanthology.org/2025.findings-acl.1274/)                    |  [Link](https://github.com/GeniusHTX/TALE)  |
+| 2025  | **Steering LLM thinking with budget guidance**	   |  arXiv     |                   [Link](https://arxiv.org/abs/2506.13752)                    |  [Link](https://github.com/UMass-Embodied-AGI/BudgetGuidance)  |
+| 2025  | **ReSearch: Learning to Reason with Search for LLMs via Reinforcement Learning**	   |  arXiv     |                   [Link](https://arxiv.org/abs/2503.19470)                    |  [Link](https://github.com/Agent-RL/ReSearch)  |
+| 2025  | **Logic-RL: Unleashing LLM reasoning with rule-based reinforcement learning**	   |  arXiv     |                   [Link](https://arxiv.org/abs/2502.14768)                    |  -  |
+| 2025  | **Posterior-GRPO: Rewarding reasoning processes in code generation**	   |  arXiv     |                   [Link](https://arxiv.org/abs/2508.05170)                    |  -  |
+| 2025  | **Pixel reasoner: Incentivizing pixel-space reasoning with curiosity-driven reinforcement learning**	   |  arXiv     |                   [Link](https://arxiv.org/abs/2505.15966)                    |  [Link](https://tiger-ai-lab.github.io/Pixel-Reasoner/)  |
 
-#### Black (Reflection)
+
+### Black Hat (Reflection) <span id="Black-"></span>
+| **Year** | **Title**                                                                                                                                    |       **Venue**      |                                **Paper**                                | **Code** |
+| -------- | -------------------------------------------------------------------------------------------------------------------------------------------- | :------------------: | :---------------------------------------------------------------------: | :------: |
+| 2023     | **Learning to reason over scene graphs: a case study of fine-tuning GPT-2 into a robot language model for grounded task planning**           | Front. Robotics & AI | [Link](https://www.frontiersin.org/articles/10.3389/frobt.2023.1221739) |     [Link](https://github.com/dnandha/RobLM)    |
+| 2023     | **Data-efficient learning of natural language to linear temporal logic translators for robot task specification**                            |         ICRA         |                                    [Link](https://arxiv.org/pdf/2303.08006)                                    |     [Link](https://github.com/UM-ARM-Lab/Efficient-Eng-2-LTL)    |
+| 2023     | **Generating sequences by learning to self-correct**                                                                                         |       ICLR      |           [Link](https://openreview.net/forum?id=hH36JeQZDaO)           |     [Link](https://github.com/wellecks/self_correction)    |
+| 2024     | **Learning to plan for language modeling from unlabeled data**                                                                               |         arXiv        |                 [Link](https://arxiv.org/abs/2404.00614)                |     [Link](https://github.com/Natithan/learning-to-plan-for-language-modeling-from-unlabeled-data)    |
+| 2024     | **Cooperative strategic planning enhances reasoning capabilities in large language models**                                                  |         arXiv        |                 [Link](https://arxiv.org/abs/2410.20007)                |     -    |
+| 2024     | **Training language models to critique with multi-agent feedback**                                                                           |         arXiv        |            [Link](https://openreview.net/forum?id=tciQfO8S8j)           |     -    |
+| 2024     | **Recursive introspection: Teaching language model agents how to self-improve**                                                              |     NeurIPS     |            [Link](https://openreview.net/forum?id=DRC9pZwBwR)           |     [Link](https://cohenqu.github.io/rise.github.io/)    |
+| 2024     | **Small language models need strong verifiers to self-correct reasoning**                                                                    |   ACL Findings  |          [Link](https://aclanthology.org/2024.findings-acl.924)         |     [Link](https://github.com/yunx-z/SCORE)    |
+| 2024     | **Encouraging divergent thinking in large language models through multi-agent debate**                                                       |      EMNLP      |           [Link](https://aclanthology.org/2024.emnlp-main.992)          |     [Link](https://github.com/Skytliang/Multi-Agents-Debate)    |
+| 2024     | **Coevolving with the other you: Fine-tuning LLM with sequential cooperative multi-agent reinforcement learning**                            |     NeurIPS     |            [Link](https://openreview.net/forum?id=OoOCoZFVK3)           |     [Link](https://github.com/Harry67Hu/CORY)    |
+| 2025     | **Debate, reflect, and distill: Multi-agent feedback with tree-structured preference optimization for efficient language model enhancement** |   ACL Findings  |          [Link](https://aclanthology.org/2025.findings-acl.475)         |     [Link](https://github.com/zhouxiaofengshelf/D-R)    |
+| 2025     | **Debating truth: Debate-driven claim verification with multiple large language model agents**                                               |         arXiv        |                 [Link](https://arxiv.org/abs/2507.19090)                |     [Link](https://anonymous.4open.science/r/DebateCV-6781)    |
+| 2025     | **ACC-collab: An actor-critic approach to multi-agent LLM collaboration**                                                                    |       ICLR      |            [Link](https://openreview.net/forum?id=nfKfAzkiez)           |     [Link](https://github.com/LlenRotse/ACC-Collab)    |
+| 2025     | **Advancing collaborative debates with role differentiation through multi-agent reinforcement learning**                                     |       ACL       |           [Link](https://aclanthology.org/2025.acl-long.1105)           |     -    |
+| 2025     | **Learning to deliberate: Meta-policy collaboration for agentic LLMs with multi-agent reinforcement learning**                               |         arXiv        |                 [Link](https://arxiv.org/abs/2509.03817)                |     -    |
+| 2025     | **MARFT: Multi-agent reinforcement fine-tuning**                                                                                             |         arXiv        |                 [Link](https://arxiv.org/abs/2504.16129)                |     [Link](https://github.com/jwliao-ai/MARFT)    |
+| 2025     | **Multi-agent fine-tuning: Self-improvement with diverse reasoning chains**                                                                  |       ICLR      |            [Link](https://openreview.net/forum?id=JtGPIZpOrz)           |     [Link](https://llm-multiagent-ft.github.io/)    |
+| 2025     | **Inference-time scaling for generalist reward modeling**                                                                                    |         arXiv        |                 [Link](https://arxiv.org/abs/2504.02495)                |     [HF-Link](https://huggingface.co/collections/BBQGOD/deepseek-grm-68b4681169dbb97fd30614b5)    |
+| 2025     | **Solve-detect-verify: Inference-time scaling with flexible generative verifier**                                                            |         arXiv        |                 [Link](https://arxiv.org/abs/2505.11966)                |     -    |
+| 2025     | **Leanabell-Prover: Post-training scaling in formal reasoning**                                                                              |         arXiv        |                 [Link](https://arxiv.org/abs/2504.06122)                |     [Link](https://github.com/Leanabell-LM/Leanabell-Prover)    |
+| 2025     | **Leanabell-Prover-V2: Verifier-integrated reasoning for formal theorem proving via reinforcement learning**                                 |         arXiv        |                 [Link](https://arxiv.org/abs/2507.08649)                |     [Link](https://github.com/Leanabell-LM/Leanabell-Prover-V2)    |
+| 2025     | **Towards medical complex reasoning with LLMs through medical verifiable problems**                                                          |   ACL Findings  |          [Link](https://aclanthology.org/2025.findings-acl.751)         |     [Link](https://github.com/FreedomIntelligence/HuatuoGPT-o1)    |
+| 2025     | **START: Self-taught reasoner with tools**                                                                                                   |         arXiv        |                 [Link](https://arxiv.org/abs/2503.04625)                |     -    |
+| 2025     | **ReflectEvo: Improving meta-introspection of small LLMs by learning self-reflection**                                                       |   ACL Findings  |          [Link](https://aclanthology.org/2025.findings-acl.871)         |     -    |
+| 2025     | **SuperCorrect: Advancing small LLM reasoning with thought template distillation and self-correction**                                       |       ICLR      |            [Link](https://openreview.net/forum?id=PyjZO7oSw2)           |     [Link](https://github.com/YangLing0818/SuperCorrect-llm)    |
+| 2025     | **Think thrice before you act: Progressive thought refinement in large language models**                                                     |       ICLR      |            [Link](https://openreview.net/forum?id=pUbbLHjCPM)           |     [Link](https://github.com/cydu24/Progressive-Thought-Refinement)    |
+| 2025     | **Boosting LLM reasoning via spontaneous self-correction**                                                                                   |       COLM      |                                    [Link](https://arxiv.org/pdf/2506.06923)                                    |     -    |
+| 2025     | **Literature review of multi-agent debate for problem-solving**                                                                              |         arXiv        |                 [Link](https://arxiv.org/abs/2506.00066)                |     -    |
 
 
-#### Yellow (Internal thinking)
 
-#### White (Fact perception)
+### Yellow Hat (Internal thinking) <span id="Yellow-"></span>
+| **Year** | **Title**                                                                                                              |      **Venue**     |                      **Paper**                     | **Code** |
+| -------- | ---------------------------------------------------------------------------------------------------------------------- | :----------------: | :------------------------------------------------: | :------: |
+| 2011     | **Thinking, fast and slow**                                                       | Farrar, Straus & Giroux |                            -                            |     -    |
+| 2023     | **Implicit chain of thought reasoning via knowledge distillation**                                                     |       arXiv      |      [Link](https://arxiv.org/abs/2311.01460)      |     [Link](https://github.com/da03/implicit_chain_of_thought/)    |
+| 2023     | **Think before you speak: Training language models with pause tokens**                                                 |       arXiv      |      [Link](https://arxiv.org/abs/2310.02226)      |     -    |
+| 2024     | **Can language models learn to skip steps?**                                                                           |    NeurIPS   | [Link](https://openreview.net/forum?id=w4AnTVxAO9) |     [Link](https://github.com/tengxiaoliu/LM_skip)    |
+| 2024     | **Training large language models to reason in a continuous latent space**                                              |      ICLR     | [Link](https://arxiv.org/pdf/2412.06769?) |     -    |
+| 2024     | **Disentangling length from quality in direct preference optimization**           |        ACL Findings       |  [Link](https://aclanthology.org/2024.findings-acl.297) |     -    |
+| 2025     | **Long-short chain-of-thought mixture supervised fine-tuning eliciting efficient reasoning in large language models**  |       arXiv      |      [Link](https://arxiv.org/abs/2505.03469)      |     [Link](https://github.com/ZGCA-AI4Edu/LS-Mixture)    |
+| 2025     | **AutoL2S: Auto long-short reasoning for efficient large language models**                                             |       arXiv      |      [Link](https://arxiv.org/abs/2505.22662)      |     [HF-Link](https://huggingface.co/amandaa/AutoL2S-7b)    |
+| 2025     | **SynapseRoute: An auto-route switching framework on dual-state large language model**                                 |       arXiv      |      [Link](https://arxiv.org/abs/2507.02822)      |     -    |
+| 2025     | **Let LLMs break free from overthinking via self-braking tuning**                                                      |       arXiv      |      [Link](https://arxiv.org/abs/2505.14604)      |     [Link](https://github.com/ZJU-REAL/Self-Braking-Tuning)    |
+| 2025     | **AdaptThink: Reasoning models can learn when to think**                                                               |       arXiv      |      [Link](https://arxiv.org/abs/2505.13417)      |     [Link](https://github.com/THU-KEG/AdaptThink)    |
+| 2025     | **ThinkSwitcher: When to think hard, when to think fast**                                                              |       arXiv      |      [Link](https://arxiv.org/abs/2505.14183)      |     -    |
+| 2025     | **HDFlow: Enhancing LLM complex problem-solving with hybrid thinking and dynamic workflows**                           | ICLR Workshop | [Link](https://openreview.net/forum?id=wGqf7YMF8R) |     -    |
+| 2025     | **Self-Route: Automatic mode switching via capability estimation for efficient reasoning**                             |       arXiv      |      [Link](https://arxiv.org/abs/2505.20664)      |     -    |
+| 2025     | **Distilling reasoning ability from large language models with adaptive thinking**                                     |  IEEE T-NNLS  |         [Link](https://arxiv.org/pdf/2404.09170)        |     -    |
+| 2025     | **Skip-thinking: Chunk-wise chain-of-thought distillation enable smaller language models to reason better and faster** |       arXiv      |      [Link](https://arxiv.org/abs/2505.18642)      |     -    |
+| 2025     | **TokenSkip: Controllable chain-of-thought compression in LLMs**                                                       |       arXiv      |      [Link](https://arxiv.org/abs/2502.12067)      |     [Link](https://github.com/hemingkx/TokenSkip)    |
+| 2025     | **From explicit CoT to implicit CoT: Learning to internalize CoT step by step**                                        |      ICLR     | [Link](https://openreview.net/forum?id=fRPmc94QeH) |     -    |
+| 2025     | **L1: Controlling how long a reasoning model thinks with reinforcement learning** |            COLM          |    [Link](https://openreview.net/forum?id=4jdIxXBNve)   |     [Link](https://cmu-l3.github.io/l1)    |
+| 2025     | **Token-budget-aware LLM reasoning**                                              |        ACL Findings       | [Link](https://aclanthology.org/2025.findings-acl.1274) |     [Link](https://github.com/GeniusHTX/TALE)    |
+| 2025     | **Adaptive decision-making “fast” and “slow”: A model of creative thinking**      |      Eur. J. Neuroscience      |        [Link](https://onlinelibrary.wiley.com/doi/pdf/10.1111/ejn.70024)       |     [Link]()    |
+| 2025     | **Chain of draft: Thinking faster by writing less**                               |             arXiv            |         [Link](https://arxiv.org/abs/2502.18600)        |     [Link](https://github.com/sileix/chain-of-draft)    |
+| 2025     | **MUR: Momentum uncertainty guided reasoning for large language models**          |             arXiv            |         [Link](https://arxiv.org/abs/2507.14958)        |     [Link](https://github.com/yayayacc/MUR)    |
+
+
+
+### White Hat (Fact perception) <span id="White-"></span>
+| **Year** | **Title**                                                                                         |      **Venue**      |                                                     **Paper**                                                    |                      **Code**                     |
+| -------- | ------------------------------------------------------------------------------------------------- | :-----------------: | :--------------------------------------------------------------------------------------------------------------: | :-----------------------------------------------: |
+| 2009     | **The probabilistic relevance framework: BM25 and beyond**                     | Found. Trends Inf. Retr. |       [Link](https://www.nowpublishers.com/article/DownloadSummary/INR-019)       |     -    |
+| 2019     | **Sentence-BERT: Sentence embeddings using Siamese BERT-networks**             |     EMNLP-IJCNLP    |        [Link](https://aclanthology.org/D19-1410)       |     [Link](https://github.com/UKPLab/sentence-transformers)    |
+| 2023     | **Unsupervised dense retrieval with relevance-aware contrastive pre-training** |     ACL Findings    | [Link](https://aclanthology.org/2023.findings-acl.695) |     [Link](https://github.com/Yibin-Lei/ReContriever)    |
+| 2023     | **GPT4Tools: Teaching large language model to use tools via self-instruction**                    |     NeurIPS    | [Link](https://proceedings.neurips.cc/paper_files/paper/2023/file/e393677793767624f2821cec8bdd02f1-Paper-Conference.pdf) | [Link](https://github.com/AILab-CVC/GPT4Tools) |
+| 2023     | **ToolkenGPT: Augmenting frozen language models with massive tools via tool embeddings**          |     NeurIPS    | [Link](https://proceedings.neurips.cc/paper_files/paper/2023/file/8fd1a81c882cd45f64958da6284f4a3f-Paper-Conference.pdf) |                         [Link](https://github.com/Ber666/ToolkenGPT)                         |
+| 2024     | **Towards completeness-oriented tool retrieval for large language models**                        |      CIKM      |                                  [Link](https://doi.org/10.1145/3627673.3679847)                                 |                         -                         |
+| 2024     | **ToolRerank: Adaptive and hierarchy-aware reranking for tool retrieval**                         |   LREC-COLING  |                               [Link](https://aclanthology.org/2024.lrec-main.1413)                               |                         -                         |
+| 2024     | **Tool-augmented reward modeling**                                                                |      ICLR      |                                [Link](https://openreview.net/forum?id=d94x0gWTUX)                                |                         [Link](https://github.com/ernie-research/Tool-Augmented-Reward-Model)                         |
+| 2024     | **RECOMP: Improving retrieval-augmented LMs with context compression and selective augmentation** |      ICLR      |                                [Link](https://openreview.net/forum?id=mlJLVigNHp)                                |                         -                         |
+| 2024     | **Learning to use tools via cooperative and interactive agents**                                  | EMNLP Findings |                             [Link](https://aclanthology.org/2024.findings-emnlp.624)                             |                         -                         |
+| 2025     | **VisualToolAgent (VISTA): A reinforcement learning framework for visual tool selection**         |       arXiv       |                                     [Link](https://arxiv.org/abs/2505.20289)                                     |                         [Link](https://oodbag.github.io/vista_web/)                         |
+
 
 ## Performance <span id="Performance"></span>
 
