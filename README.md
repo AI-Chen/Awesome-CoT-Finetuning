@@ -219,6 +219,8 @@ A collection of papers and datasets for the chain of thought finetuning (CoT-Fin
 
 ## Being an Insight Model <span id="Insight-"></span>
 ### Blue Hat (Planning) <span id="Blue-"></span>
+<img src="./fig/blue.png" width=50%>
+
 | **Year**   | **Title**                                                                                     |  **Venue**    |                                       **Paper**                                            | **Code** |
 | ---- |----------------------------------------------------------------------------------|:--------:|:---------------------------------------------------------------------------------:|:----:|
 | 2002  | **Artificial Intelligence: A Modern Approach**   |   Pearson   |                   -                    | -  |
@@ -243,6 +245,8 @@ A collection of papers and datasets for the chain of thought finetuning (CoT-Fin
 | 2025  | **AgentGen: Enhancing planning abilities for large language model based agent via environment and task generation**   |   KDD   |                   [Link](https://dl.acm.org/doi/pdf/10.1145/3690624.3709321)                    | [Link](https://agent-gen.github.io/)  |
 
 ### Green Hat (Diverse thinking) <span id="Green-"></span>
+<img src="./fig/green.png" width=50%>
+
 | **Year**   | **Title**                                                                                     |  **Venue**    |                                       **Paper**                                            | **Code** |
 | ---- |----------------------------------------------------------------------------------|:--------:|:---------------------------------------------------------------------------------:|:----:|
 | 1991  | **Adaptive mixtures of local experts**	   |  Neural Computation     |                   -                    | -  |
@@ -289,6 +293,8 @@ A collection of papers and datasets for the chain of thought finetuning (CoT-Fin
 
 
 ### Black Hat (Reflection) <span id="Black-"></span>
+<img src="./fig/black.png" width=50%>
+
 | **Year** | **Title**                                                                                                                                    |       **Venue**      |                                **Paper**                                | **Code** |
 | -------- | -------------------------------------------------------------------------------------------------------------------------------------------- | :------------------: | :---------------------------------------------------------------------: | :------: |
 | 2023     | **Learning to reason over scene graphs: a case study of fine-tuning GPT-2 into a robot language model for grounded task planning**           | Front. Robotics & AI | [Link](https://www.frontiersin.org/articles/10.3389/frobt.2023.1221739) |     [Link](https://github.com/dnandha/RobLM)    |
@@ -323,6 +329,8 @@ A collection of papers and datasets for the chain of thought finetuning (CoT-Fin
 
 
 ### Yellow Hat (Internal thinking) <span id="Yellow-"></span>
+<img src="./fig/yellow.png" width=50%>
+
 | **Year** | **Title**                                                                                                              |      **Venue**     |                      **Paper**                     | **Code** |
 | -------- | ---------------------------------------------------------------------------------------------------------------------- | :----------------: | :------------------------------------------------: | :------: |
 | 2011     | **Thinking, fast and slow**                                                       | Farrar, Straus & Giroux |                            -                            |     -    |
@@ -352,6 +360,8 @@ A collection of papers and datasets for the chain of thought finetuning (CoT-Fin
 
 
 ### White Hat (Fact perception) <span id="White-"></span>
+<img src="./fig/white.png" width=50%>
+
 | **Year** | **Title**                                                                                         |      **Venue**      |                                                     **Paper**                                                    |                      **Code**                     |
 | -------- | ------------------------------------------------------------------------------------------------- | :-----------------: | :--------------------------------------------------------------------------------------------------------------: | :-----------------------------------------------: |
 | 2009     | **The probabilistic relevance framework: BM25 and beyond**                     | Found. Trends Inf. Retr. |       [Link](https://www.nowpublishers.com/article/DownloadSummary/INR-019)       |     -    |
