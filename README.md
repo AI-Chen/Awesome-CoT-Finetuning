@@ -277,6 +277,8 @@ A collection of papers and datasets for the chain of thought finetuning (CoT-Fin
 | 2025 | **Breaking thought patterns: A multi-dimensional reasoning framework for llms**   |  arXiv      |                   [Link](https://arxiv.org/abs/2506.13192)                    | -  |
 
 ### Red Hat (Intuitive thinking) <span id="Red-"></span>
+<img src="./fig/red.png" width=50%>
+
 | **Year**   | **Title**                                                                                     |  **Venue**    |                                       **Paper**                                            | **Code** |
 | ---- |----------------------------------------------------------------------------------|:--------:|:---------------------------------------------------------------------------------:|:----:|
 | 2022  | **AutoRule: Reasoning chain-of-thought extracted rule-based rewards improve preference learning**	   |  arXiv     |                   [Link](https://arxiv.org/abs/2506.15651)                    |  [Link](https://github.com/cxcscmu/AutoRule)  |
