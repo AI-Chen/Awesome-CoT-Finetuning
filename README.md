@@ -9,6 +9,18 @@ A collection of papers and datasets for the chain of thought finetuning (CoT-Fin
 
 :bell: :bell: :bell: Update at Oct 2025
 
+```
+@misc{chen2025puttingthinkinghatssurvey,
+      title={Putting on the Thinking Hats: A Survey on Chain of Thought Fine-tuning from the Perspective of Human Reasoning Mechanism}, 
+      author={Xiaoshu Chen and Sihang Zhou and Ke Liang and Duanyang Yuan and Haoyuan Chen and Xiaoyu Sun and Linyuan Meng and Xinwang Liu},
+      year={2025},
+      eprint={2510.13170},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2510.13170}, 
+}
+```
+
 ![Example](./evolution.png)
 
 # Bookmarks
