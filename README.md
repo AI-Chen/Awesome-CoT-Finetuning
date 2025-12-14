@@ -7,7 +7,7 @@ A collection of papers and datasets for the chain of thought finetuning (CoT-Fin
 - Potential Opportunity: Building upon the Six Thinking Hats framework, we identify and summarize the key challenges currently faced by CoT fine-tuning and point out some potential opportunities that will inspire future studies.
 - Open-source Resource: We will keep this GitHub repository continuously updated for researchers to track the latest developments.
 
-:bell: :bell: :bell: Update at Oct 2025
+:bell: :bell: :bell: Update at Dec 2025
 
 ```
 @misc{chen2025puttingthinkinghatssurvey,
@@ -48,7 +48,8 @@ A collection of papers and datasets for the chain of thought finetuning (CoT-Fin
 | 2025 | [Towards Reasoning Era: A Survey of Long Chain-of-Thought for Reasoning Large Language Models](https://arxiv.org/abs/2503.09567 ) | Arxiv |  
 | 2025 |  [From System 1 to System 2: A Survey of Reasoning Large Language Models](https://arxiv.org/abs/2502.17419) | Arxiv | 
 | 2025 | [LLM Post-Training: A Deep Dive into Reasoning Large Language Models](https://arxiv.org/abs/2502.21321 ) | Arxiv | 
-| 2025 |  [Stop Overthinking: A Survey on Efficient Reasoning for Large Language Models (arxiv.org)](https://arxiv.org/abs/2503.16419) | Arxiv |             
+| 2025 |  [Stop Overthinking: A Survey on Efficient Reasoning for Large Language Models (arxiv.org)](https://arxiv.org/abs/2503.16419) | Arxiv | 
+| 2025 |  [Thinking with Images for Multimodal Reasoning: Foundations, Methods, and Future Frontiers (arxiv.org)](https://arxiv.org/pdf/2506.23918) | Arxiv |    
 
 ## Datasets <span id="datasets-"></span>
 | **Category**   | **Dataset**   | **Train** | **Valid** | **Test** | **Task Description**                                | **Rationale (ie. CoT)** | **Dataset Download** | **Paper** |
@@ -186,6 +187,8 @@ A collection of papers and datasets for the chain of thought finetuning (CoT-Fin
 | 2025  | **Diffucoder: Understanding and improving masked diffusion models for code generation**   |  Arxiv    |                   [Link](https://arxiv.org/pdf/2506.20639)                    | [link](https://github.com/apple/ml-diffucoder)   |
 | 2025  | **Videochat-r1: Enhancing spatio-temporal perception via reinforcement fine-tuning**   |  Arxiv    |                   [Link](https://arxiv.org/pdf/2504.06958?)                    | [link](https://github.com/OpenGVLab/VideoChat-R1)   |
 | 2025  | **DPO Meets PPO: Reinforced Token Optimization for RLHF**   |  ICML    |                   [Link](https://openreview.net/pdf?id=IfWKVF6LfY)                    | [link](https://github.com/zkshan2002/RTO)   |
+| 2025  | **ICPO: Intrinsic Confidence-Driven Group Relative Preference Optimization for Efficient Reinforcement Learning**   |  Arxiv    |                   [Link](https://arxiv.org/pdf/2511.21005)                    | -   |
+| 2025  | **ASPO: Asymmetric Importance Sampling Policy Optimization**   |  Arxiv    |                   [Link](https://arxiv.org/pdf/2510.06062)                    | [link](https://github.com/wizard-III/Archer2.0)   |
 #### Reward Modeling
 | **Year**   | **Title**                                                                                     |  **Venue**    |                                       **Paper**                                            | **Code** |
 | ---- |----------------------------------------------------------------------------------|:--------:|:---------------------------------------------------------------------------------:|:----:|
@@ -389,6 +392,7 @@ A collection of papers and datasets for the chain of thought finetuning (CoT-Fin
 | 2024     | **RECOMP: Improving retrieval-augmented LMs with context compression and selective augmentation** |      ICLR      |                                [Link](https://openreview.net/forum?id=mlJLVigNHp)                                |                         -                         |
 | 2024     | **Learning to use tools via cooperative and interactive agents**                                  | EMNLP Findings |                             [Link](https://aclanthology.org/2024.findings-emnlp.624)                             |                         -                         |
 | 2025     | **VisualToolAgent (VISTA): A reinforcement learning framework for visual tool selection**         |       arXiv       |                                     [Link](https://arxiv.org/abs/2505.20289)                                     |                         [Link](https://oodbag.github.io/vista_web/)                         |
+| 2025     | **OPENTHINKIMG: Learning to Think with Images via Visual Tool Reinforcement Learning**         |       arXiv       |                                     [Link](https://arxiv.org/pdf/2505.08617)                                     |                         [Link](https://github.com/zhaochen0110/OpenThinkIMG)                         |
 
 
 ## Performance <span id="Performance"></span>
