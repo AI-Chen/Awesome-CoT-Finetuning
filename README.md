@@ -189,6 +189,7 @@ A collection of papers and datasets for the chain of thought finetuning (CoT-Fin
 | 2025  | **DPO Meets PPO: Reinforced Token Optimization for RLHF**   |  ICML    |                   [Link](https://openreview.net/pdf?id=IfWKVF6LfY)                    | [link](https://github.com/zkshan2002/RTO)   |
 | 2025  | **ICPO: Intrinsic Confidence-Driven Group Relative Preference Optimization for Efficient Reinforcement Learning**   |  Arxiv    |                   [Link](https://arxiv.org/pdf/2511.21005)                    | -   |
 | 2025  | **ASPO: Asymmetric Importance Sampling Policy Optimization**   |  Arxiv    |                   [Link](https://arxiv.org/pdf/2510.06062)                    | [link](https://github.com/wizard-III/Archer2.0)   |
+| 2026 | **Video-o3: Native Interleaved Clue Seeking for Long Video Multi-Hop Reasoning** | ICML | [Link](https://arxiv.org/abs/2601.23224) | [link](https://github.com/MCG-NJU/Video-o3) |
 #### Reward Modeling
 | **Year**   | **Title**                                                                                     |  **Venue**    |                                       **Paper**                                            | **Code** |
 | ---- |----------------------------------------------------------------------------------|:--------:|:---------------------------------------------------------------------------------:|:----:|
